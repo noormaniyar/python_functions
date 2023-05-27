@@ -1,0 +1,8 @@
+Date: 28 Nov 2022
+
+Topic 1: To Hands on Practice on Following Functions:--
+	1 - Lambda()
+	2 - Filter()
+	3 - Map()
+	4 - Reduce()
+	5 - Zip()
