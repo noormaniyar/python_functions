@@ -50,3 +50,39 @@ print(list(result))
 # numbers = [1, 2, 2, 3, 4, 5, 5]
 # result = list(map(double_even, numbers))
 # print(result)
+
+
+
+
+def double_even(num):
+	if num % 2 == 0:
+		return num * 2
+	else:
+		return num
+
+numbers = [1, 2, 3, 4, 5]
+result = list(map(double_even, numbers))
+print(result)
+
+
+
+
+def triple(num):
+    if num%2==0:
+        return num*3
+    else:
+        return num
+numbers = [1, 2, 3, 4, 5]
+result = list(map(triple, numbers))
+print(result)
+
+
+
+def triplet(n):
+    if not n%2==0:
+        return n*3
+    else:
+        return n
+numbers = [1, 2, 3, 4, 5]
+result = list(map(triplet, numbers))
+print(result)
