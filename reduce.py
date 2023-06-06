@@ -39,5 +39,5 @@ print(functools.reduce(operator.add, lis))
 print("The product of list elements is : ", end="")
 print(functools.reduce(operator.mul, lis))
 
-print("The concatenated product is : ", end="")
-print(functools.reduce(operator.add, ["geeks", "for", "geeks"]))
+res = functools.reduce(operator.add, ["geeks", "for", "geeks"])
+print("The concatenated product is : ", res)
