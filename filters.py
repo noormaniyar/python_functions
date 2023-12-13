@@ -129,22 +129,3 @@ print(adults_list)
 # res = filter(lambda x : (x if not parameter in x else False), str_list)
 # print(list(res))
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
